@@ -1,0 +1,28 @@
+{
+  "name": "node-navquery",
+  "version": "1.0.0",
+  "description": "recast navigation for node.js addon",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/index.js",
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiST-GIT/node-navquery.git"
+  },
+  "dependencies": {
+    "nan": "^2.3.3"
+  },
+  "keywords": [
+    "recast",
+    "navigation"
+  ],
+  "author": "LiST",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LiST-GIT/node-navquery/issues"
+  },
+  "gypfile": true,
+  "homepage": "https://github.com/LiST-GIT/node-navquery#readme"
+}
